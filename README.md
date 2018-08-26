@@ -1,4 +1,4 @@
-# Ng6Proj
+# Example of PWA (Progressive web application)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
@@ -21,6 +21,12 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+After generating basic project structure with "ng new app-example" command, use the following command to add PWA stuff:
+
+Run `ng add @angular/pwa`
+
+Also don't forger to use real application server (like http-server from npm) to test PWA features.
 
 ## Further help
 
