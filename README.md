@@ -24,9 +24,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 After generating basic project structure with "ng new app-example" command, use the following command to add PWA stuff:
 
-Run `ng add @angular/pwa`
+Run `ng add @angular/pwa` command
 
 Also don't forger to use real application server (like http-server from npm) to test PWA features.
+
+Run `ng build --prod` command will create minimal sources for production app in `dist` folder.
+
+Then go the `dist/app` folder and run the following command:
+
+Run `http-server -o` command to deploy app on the localhost
+
+Now you can enjoy PWA features
 
 ## Further help
 
